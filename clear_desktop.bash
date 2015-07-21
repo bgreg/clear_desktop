@@ -1,5 +1,5 @@
 #! /bin/bash
-
+# look at quote escaping file names. 
 ls ~/Desktop/* &>/dev/null
 if [ $? -eq 0 ]
 then 

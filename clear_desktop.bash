@@ -1,7 +1,5 @@
 #! /bin/bash
 
-#! /bin/bash
-
 if find "$HOME/Desktop" -maxdepth 1 -type f | grep -v '/\.' &>/dev/null
 then
   DATE=$(date | tr " " "_")
